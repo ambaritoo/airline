@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fondo45.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+    
+    .navbar {
+        background-color: #6bb3ff;
+    }
+    
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .menu li {
+        padding: 10px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+ }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 12px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #555;
+    }
+    
+    
+
+#contactForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+header {
+    background-color: #0072CE;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+   text-shadow: 4px 4px rgb(255, 255, 255);
+
+   -webkit-text-stroke-color: #0e1740;
+   -webkit-text-stroke-width: 1px;
+   color: transparent;
+   text-align: center;
+}
+
+
+h1,h3 {
+    margin: 10px 0;
+    
+}
+
+#carouselExampleIndicators {
+    margin: 20px auto;
+    max-width: 800px; 
+}
+
+.carousel-caption {
+    text-align: center;
+}
+
+.Nosotros-item, .contenedor, #contactForm, .informacion, footer {
+    margin: 20px auto;
+    max-width: 800px; 
+}
+
+a {
+    color: #0072CE;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #0072CE;
+}
+
+.Nosotros-item {
+    background-color: #ffffff;
+    border: 1px solid #5148b7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.Nosotros-item h3 {
+    font-size: 20px;
+    color: #010a61;
+}
+
+.Nosotros-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.contenedor {
+    width: 100%; 
+  }
+  
+  .contenedor img {
+    width: 20%; 
+    height: auto; 
+
+  }
+  .information {
+    margin-top: 20px;
+}
+
+a {
+    color: #08263d;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+.contact {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+#contactForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4e4caf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.avion img {
+    width: 50%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
